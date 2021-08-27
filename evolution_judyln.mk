@@ -30,7 +30,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 $(call inherit-product, device/lge/judyln/device.mk)
 
 # Inherit some common EvolutionX stuff.
-$(call inherit-product, vendor/evolution/config/common.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Overlays (inherit after vendor/cm to ensure we override it)
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
