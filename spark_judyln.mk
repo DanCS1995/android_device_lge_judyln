@@ -58,3 +58,6 @@ TARGET_BOOT_ANIMATION_RES := 1440
 
 # Charging Animation
 TARGET_INCLUDE_PIXEL_CHARGER := true
+
+#Enable build with gapps or not
+WITH_GAPPS=false
