@@ -21,7 +21,7 @@ $(call inherit-product, device/lge/judyln-common/judyln-common.mk)
 $(call inherit-product, vendor/lge/judyln/judyln-vendor.mk)
 
 # Device identifiers
-PRODUCT_NAME := lineage_judyln
+PRODUCT_NAME := custom_judyln
 PRODUCT_DEVICE := judyln
 PRODUCT_BRAND := lge
 PRODUCT_MANUFACTURER := LGE
