@@ -15,4 +15,4 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_judyln.mk
+    $(LOCAL_DIR)/bliss_judyln.mk
